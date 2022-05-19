@@ -1,13 +1,19 @@
-import React from 'react'
+import React from 'react';
+import about from "../image/aboutimg.jpg"
 
 function About() {
   return (
    <>
     <section id="about">
-     <h1 className='headings'> ABOUT ME</h1>
-       <div id='pic'> 
-         <img src="./image/aboutimg.jpg " alt='about'/>
-            <div id='intro'>
+      <div className="container">
+  <div className="row align-items-end">
+  <h1 className='headings'> ABOUT ME</h1>
+ 
+  <div className="col-md-5" id="pic">
+         <img src={about} alt='about'/> 
+    </div>
+    <div className="col-md-7">
+    <div id='intro'>
            <h2> Pooja Bugalia</h2>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae in dicta, neque rerum iste eos repudiandae vero 
@@ -22,8 +28,14 @@ function About() {
                  laudantium explicabo dignissimos deleniti eos temporibus, expedita 
                  rerum dicta quae nobis debitis reprehenderit eveniet vero corporis ipsum cum!</p>
          </div>
-       </div>
+    </div>   
+ 
 
+
+  </div>
+   
+         </div>
+      
      </section>
    </>
   )

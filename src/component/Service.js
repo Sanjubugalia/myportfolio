@@ -1,4 +1,5 @@
 import React from 'react';
+import {Card,Button} from "react-bootstrap"
 
 
 function Service() {
@@ -7,32 +8,49 @@ function Service() {
       <section id="service">
         <h1 className='headings'>SERVICES</h1>
         <div className="container">
-          <div className='row'>
-            <div className='col'>
-             <div className='box'>
-            {/* <h1 className='headings'> Web Development</h1> */}
-            
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-           
-              </div>
-              <div className="col" >
-              <div className='box'>
-                    <img src="..." className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-                    </div>
-                    </div>
-                    </div>
-
-            </div>
-         </div>
-        </div>
+  <div className="row align-items-end">
+    <div className="col">
+    <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Body>
+    <Card.Title>Web Design</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+ 
+  </Card.Body>
+</Card>
+    </div>
+    <div className="col">
+    <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Body>
+    <Card.Title>Web Development</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+  
+  </Card.Body>
+</Card>
+    </div>
+    <div className="col">
+    <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Body>
+    <Card.Title>Hosting</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    
+  </Card.Body>
+</Card>
+    </div>
+  </div>
+</div>
       </section>
 
     </>

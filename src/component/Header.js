@@ -9,11 +9,11 @@ import Contact from './Contact';
 function Header() {
   return (
     <>
-      <div className="header">
-        <nav class="navbar fixed-top navbar-expand-lg ">
+<nav class="navbar fixed-top navbar-expand-lg ">
           <div class="container-fluid">
             <div class="collapse navbar-collapse ">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+  <div class="container-fluid">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                 <li class="nav-item">
                   <Link to="home" smooth={true} offset={-100} duration={500} class="nav-link active" aria-current="page" >Home</Link>
                 </li>
@@ -30,16 +30,14 @@ function Header() {
                   <Link to="contact" smooth={true} offset={-100} duration={500} class="nav-link active" aria-current="page" >Contact</Link>
                 </li>
               </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-      <Home />
-      <About />
-      <Portfolio />
-      <Service />
-      <Contact />
-
+</div></div>
+  </div>
+</nav>
+    <Home/>
+    <About/>
+    <Portfolio/>
+    <Service/>
+    <Contact/>
     </>
   )
 }

@@ -1,21 +1,32 @@
-import React from 'react'
+import React from 'react';
+import portfolio1 from "../image/portfolio1.jpg" 
+import portfolio2 from "../image/portfolio2.jpg"
+import portfolio3 from "../image/portfolio3.jpg"
+import portfolio4 from "../image/portfolio4.jpg"
+
+
 
 function Portfolio() {
   return (
    <>
    <section id="portfolio">
-  <h1 className='headings'>PORFOLIO </h1>
+     <div className='container'>
+       <div className='row'>
+       <h1 className='headings'>PORFOLIO </h1>
   <div className='gallery'>
-    <img src="./image/portfolio1.jpg" alt="img1"></img>
-    <img src="./image/portfolio2.jpg" alt="img1"></img>
-    <img src="./image/portfolio3.jpg" alt="img1"></img>
-    <img src="./image/portfolio4.jpg" alt="img1"></img>
-    <img src="./image/portfolio1.jpg" alt="img1"></img>
-    <img src="./image/portfolio2.jpg" alt="img1"></img>
-    <img src="./image/portfolio3.jpg" alt="img1"></img>
-    <img src="./image/portfolio2.jpg" alt="img1"></img>
-    <img src="./image/portfolio3.jpg" alt="img1"></img>
+    <img src={portfolio1} alt="img1"></img>
+    <img src={portfolio2} alt="img1"></img>
+    <img src={portfolio3} alt="img1"></img>
+    <img src={portfolio4} alt="img1"></img>
+    <img src={portfolio2} alt="img1"></img>
+    <img src={portfolio1} alt="img1"></img>
+    <img src={portfolio3} alt="img1"></img>
+    <img src={portfolio2} alt="img1"></img>
+    <img src={portfolio3} alt="img1"></img>
   </div>
+       </div>
+     </div>
+  
 </section>
    </>
   )

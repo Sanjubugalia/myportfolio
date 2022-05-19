@@ -1,17 +1,17 @@
 import React from 'react';
+import bannerimg from "../image/resizeportfoliobanner.jpg"
+
 
 function Home() {
   return (
    <>
-   <div id="home">
-   <div className='conatiner-fluid'>
-    {/* <img src="../image/portfoliobanner.jpg" alt='img' className='imgstyle'></img> */}
-     <img src="./ortfoliobanner.jpg" className="img-fluid imgstyle" alt="..."/>
+   
+   <div className='conatiner-fluid' id='home'>
+   <div className='divstye'>
+<img src={bannerimg} className='imgstyle'></img>
    </div>
-     </div>
-
-
-   </>
+   </div>
+    </>
   )
 }
 
