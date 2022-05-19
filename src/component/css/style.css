@@ -12,6 +12,7 @@
     top: 0%;
     background-color:rgba(0,0,0, 0.5);
      opacity: .8;
+     right: 10%
 }
 
 .navbar ul{
@@ -19,7 +20,7 @@
     display: flex;
     margin: 20px, 0px;
     padding :5px;
-   right: 10%
+  
    
 }
 .navbar ul li{
